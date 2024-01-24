@@ -1,5 +1,7 @@
 n = int(input())
-a= [1]
-# for i in range(n):
-a.insert(2, "a")
-print(a)
+if 0 <= n <= 2:
+    print(1)
+elif 3 <= n <= 5:
+    print(2)
+else:
+    print(3)
